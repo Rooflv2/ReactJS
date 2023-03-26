@@ -1,0 +1,60 @@
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+  }
+}
+
+table {
+	th {
+		width: 10%;
+	}
+
+	text-align: left;
+	font-weight: normal;
+}
+
+.activeNav {
+	color: red;
+	font-size: 130%;
+	font-weight: 800em;
+}
+
+.header {
+	font-size: 3em;
+	padding: 1%;
+	text-align: center;
+}
+
+.main {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.button {
+	font-size: 1em;
+	margin: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+// .main1 {
+// 	@extend %main;
+// }
+
+// .main2 {
+// 	@extend %main;
+// }
+
+// .main3 {
+// 	@extend %main;
+// }
